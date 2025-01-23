@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Form.css";
+import "./FormComponent.css";
 
 const FormComponent = () => {
   const [formData, setFormData] = useState({
@@ -92,7 +92,7 @@ const FormComponent = () => {
           {errors.message && <div className="error-text">{errors.message}</div>}
         </div>
 
-        <button type="submit" className="btn btn-primary w-100">
+        <button type="submit" className="btn btn-primary">
           Submit
         </button>
       </form>
